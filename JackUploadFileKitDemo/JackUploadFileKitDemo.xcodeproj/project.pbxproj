@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B8D3DE11EA05B37007A33F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3DE01EA05B37007A33F3 /* main.m */; };
+		9B8D3DE41EA05B37007A33F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3DE31EA05B37007A33F3 /* AppDelegate.m */; };
+		9B8D3DE71EA05B37007A33F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3DE61EA05B37007A33F3 /* ViewController.m */; };
+		9B8D3DEA1EA05B37007A33F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D3DE81EA05B37007A33F3 /* Main.storyboard */; };
+		9B8D3DEC1EA05B37007A33F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D3DEB1EA05B37007A33F3 /* Assets.xcassets */; };
+		9B8D3DEF1EA05B37007A33F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D3DED1EA05B37007A33F3 /* LaunchScreen.storyboard */; };
+		9B8D3DFA1EA05B37007A33F3 /* JackUploadFileKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3DF91EA05B37007A33F3 /* JackUploadFileKitDemoTests.m */; };
+		9B8D3E051EA05B37007A33F3 /* JackUploadFileKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3E041EA05B37007A33F3 /* JackUploadFileKitDemoUITests.m */; };
+		9B8D3E1B1EA05B4D007A33F3 /* SEUploadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3E141EA05B4C007A33F3 /* SEUploadFile.m */; };
+		9B8D3E1C1EA05B4D007A33F3 /* SEUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3E161EA05B4C007A33F3 /* SEUploadManager.m */; };
+		9B8D3E1D1EA05B4D007A33F3 /* SEUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3E181EA05B4C007A33F3 /* SEUploadOperation.m */; };
+		9B8D3E1E1EA05B4D007A33F3 /* SEUploadOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3E1A1EA05B4D007A33F3 /* SEUploadOperationQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B8D3DF61EA05B37007A33F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B8D3DD41EA05B37007A33F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B8D3DDB1EA05B37007A33F3;
+			remoteInfo = JackUploadFileKitDemo;
+		};
+		9B8D3E011EA05B37007A33F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B8D3DD41EA05B37007A33F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B8D3DDB1EA05B37007A33F3;
+			remoteInfo = JackUploadFileKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B8D3DDC1EA05B37007A33F3 /* JackUploadFileKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackUploadFileKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8D3DE01EA05B37007A33F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B8D3DE21EA05B37007A33F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B8D3DE31EA05B37007A33F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B8D3DE51EA05B37007A33F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B8D3DE61EA05B37007A33F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B8D3DE91EA05B37007A33F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B8D3DEB1EA05B37007A33F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B8D3DEE1EA05B37007A33F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B8D3DF01EA05B37007A33F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8D3DF51EA05B37007A33F3 /* JackUploadFileKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackUploadFileKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8D3DF91EA05B37007A33F3 /* JackUploadFileKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackUploadFileKitDemoTests.m; sourceTree = "<group>"; };
+		9B8D3DFB1EA05B37007A33F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8D3E001EA05B37007A33F3 /* JackUploadFileKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackUploadFileKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8D3E041EA05B37007A33F3 /* JackUploadFileKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackUploadFileKitDemoUITests.m; sourceTree = "<group>"; };
+		9B8D3E061EA05B37007A33F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8D3E131EA05B4C007A33F3 /* SEUploadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEUploadFile.h; sourceTree = "<group>"; };
+		9B8D3E141EA05B4C007A33F3 /* SEUploadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEUploadFile.m; sourceTree = "<group>"; };
+		9B8D3E151EA05B4C007A33F3 /* SEUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEUploadManager.h; sourceTree = "<group>"; };
+		9B8D3E161EA05B4C007A33F3 /* SEUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEUploadManager.m; sourceTree = "<group>"; };
+		9B8D3E171EA05B4C007A33F3 /* SEUploadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEUploadOperation.h; sourceTree = "<group>"; };
+		9B8D3E181EA05B4C007A33F3 /* SEUploadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEUploadOperation.m; sourceTree = "<group>"; };
+		9B8D3E191EA05B4C007A33F3 /* SEUploadOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEUploadOperationQueue.h; sourceTree = "<group>"; };
+		9B8D3E1A1EA05B4D007A33F3 /* SEUploadOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEUploadOperationQueue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8D3DD91EA05B37007A33F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D3DF21EA05B37007A33F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D3DFD1EA05B37007A33F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B8D3DD31EA05B37007A33F3 = {
+			isa = PBXGroup;
+			children = (
+				9B8D3DDE1EA05B37007A33F3 /* JackUploadFileKitDemo */,
+				9B8D3DF81EA05B37007A33F3 /* JackUploadFileKitDemoTests */,
+				9B8D3E031EA05B37007A33F3 /* JackUploadFileKitDemoUITests */,
+				9B8D3DDD1EA05B37007A33F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8D3DDD1EA05B37007A33F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D3DDC1EA05B37007A33F3 /* JackUploadFileKitDemo.app */,
+				9B8D3DF51EA05B37007A33F3 /* JackUploadFileKitDemoTests.xctest */,
+				9B8D3E001EA05B37007A33F3 /* JackUploadFileKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8D3DDE1EA05B37007A33F3 /* JackUploadFileKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D3E121EA05B4C007A33F3 /* SEUpload */,
+				9B8D3DE21EA05B37007A33F3 /* AppDelegate.h */,
+				9B8D3DE31EA05B37007A33F3 /* AppDelegate.m */,
+				9B8D3DE51EA05B37007A33F3 /* ViewController.h */,
+				9B8D3DE61EA05B37007A33F3 /* ViewController.m */,
+				9B8D3DE81EA05B37007A33F3 /* Main.storyboard */,
+				9B8D3DEB1EA05B37007A33F3 /* Assets.xcassets */,
+				9B8D3DED1EA05B37007A33F3 /* LaunchScreen.storyboard */,
+				9B8D3DF01EA05B37007A33F3 /* Info.plist */,
+				9B8D3DDF1EA05B37007A33F3 /* Supporting Files */,
+			);
+			path = JackUploadFileKitDemo;
+			sourceTree = "<group>";
+		};
+		9B8D3DDF1EA05B37007A33F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D3DE01EA05B37007A33F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B8D3DF81EA05B37007A33F3 /* JackUploadFileKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D3DF91EA05B37007A33F3 /* JackUploadFileKitDemoTests.m */,
+				9B8D3DFB1EA05B37007A33F3 /* Info.plist */,
+			);
+			path = JackUploadFileKitDemoTests;
+			sourceTree = "<group>";
+		};
+		9B8D3E031EA05B37007A33F3 /* JackUploadFileKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D3E041EA05B37007A33F3 /* JackUploadFileKitDemoUITests.m */,
+				9B8D3E061EA05B37007A33F3 /* Info.plist */,
+			);
+			path = JackUploadFileKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		9B8D3E121EA05B4C007A33F3 /* SEUpload */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D3E131EA05B4C007A33F3 /* SEUploadFile.h */,
+				9B8D3E141EA05B4C007A33F3 /* SEUploadFile.m */,
+				9B8D3E151EA05B4C007A33F3 /* SEUploadManager.h */,
+				9B8D3E161EA05B4C007A33F3 /* SEUploadManager.m */,
+				9B8D3E171EA05B4C007A33F3 /* SEUploadOperation.h */,
+				9B8D3E181EA05B4C007A33F3 /* SEUploadOperation.m */,
+				9B8D3E191EA05B4C007A33F3 /* SEUploadOperationQueue.h */,
+				9B8D3E1A1EA05B4D007A33F3 /* SEUploadOperationQueue.m */,
+			);
+			path = SEUpload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8D3DDB1EA05B37007A33F3 /* JackUploadFileKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8D3E091EA05B37007A33F3 /* Build configuration list for PBXNativeTarget "JackUploadFileKitDemo" */;
+			buildPhases = (
+				9B8D3DD81EA05B37007A33F3 /* Sources */,
+				9B8D3DD91EA05B37007A33F3 /* Frameworks */,
+				9B8D3DDA1EA05B37007A33F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JackUploadFileKitDemo;
+			productName = JackUploadFileKitDemo;
+			productReference = 9B8D3DDC1EA05B37007A33F3 /* JackUploadFileKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B8D3DF41EA05B37007A33F3 /* JackUploadFileKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8D3E0C1EA05B37007A33F3 /* Build configuration list for PBXNativeTarget "JackUploadFileKitDemoTests" */;
+			buildPhases = (
+				9B8D3DF11EA05B37007A33F3 /* Sources */,
+				9B8D3DF21EA05B37007A33F3 /* Frameworks */,
+				9B8D3DF31EA05B37007A33F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B8D3DF71EA05B37007A33F3 /* PBXTargetDependency */,
+			);
+			name = JackUploadFileKitDemoTests;
+			productName = JackUploadFileKitDemoTests;
+			productReference = 9B8D3DF51EA05B37007A33F3 /* JackUploadFileKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B8D3DFF1EA05B37007A33F3 /* JackUploadFileKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8D3E0F1EA05B37007A33F3 /* Build configuration list for PBXNativeTarget "JackUploadFileKitDemoUITests" */;
+			buildPhases = (
+				9B8D3DFC1EA05B37007A33F3 /* Sources */,
+				9B8D3DFD1EA05B37007A33F3 /* Frameworks */,
+				9B8D3DFE1EA05B37007A33F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B8D3E021EA05B37007A33F3 /* PBXTargetDependency */,
+			);
+			name = JackUploadFileKitDemoUITests;
+			productName = JackUploadFileKitDemoUITests;
+			productReference = 9B8D3E001EA05B37007A33F3 /* JackUploadFileKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8D3DD41EA05B37007A33F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jack_zz;
+				TargetAttributes = {
+					9B8D3DDB1EA05B37007A33F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XM65KFU6D6;
+						ProvisioningStyle = Automatic;
+					};
+					9B8D3DF41EA05B37007A33F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XM65KFU6D6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B8D3DDB1EA05B37007A33F3;
+					};
+					9B8D3DFF1EA05B37007A33F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XM65KFU6D6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B8D3DDB1EA05B37007A33F3;
+					};
+				};
+			};
+			buildConfigurationList = 9B8D3DD71EA05B37007A33F3 /* Build configuration list for PBXProject "JackUploadFileKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B8D3DD31EA05B37007A33F3;
+			productRefGroup = 9B8D3DDD1EA05B37007A33F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8D3DDB1EA05B37007A33F3 /* JackUploadFileKitDemo */,
+				9B8D3DF41EA05B37007A33F3 /* JackUploadFileKitDemoTests */,
+				9B8D3DFF1EA05B37007A33F3 /* JackUploadFileKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B8D3DDA1EA05B37007A33F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D3DEF1EA05B37007A33F3 /* LaunchScreen.storyboard in Resources */,
+				9B8D3DEC1EA05B37007A33F3 /* Assets.xcassets in Resources */,
+				9B8D3DEA1EA05B37007A33F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D3DF31EA05B37007A33F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D3DFE1EA05B37007A33F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8D3DD81EA05B37007A33F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D3E1D1EA05B4D007A33F3 /* SEUploadOperation.m in Sources */,
+				9B8D3DE71EA05B37007A33F3 /* ViewController.m in Sources */,
+				9B8D3DE41EA05B37007A33F3 /* AppDelegate.m in Sources */,
+				9B8D3E1B1EA05B4D007A33F3 /* SEUploadFile.m in Sources */,
+				9B8D3DE11EA05B37007A33F3 /* main.m in Sources */,
+				9B8D3E1E1EA05B4D007A33F3 /* SEUploadOperationQueue.m in Sources */,
+				9B8D3E1C1EA05B4D007A33F3 /* SEUploadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D3DF11EA05B37007A33F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D3DFA1EA05B37007A33F3 /* JackUploadFileKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D3DFC1EA05B37007A33F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D3E051EA05B37007A33F3 /* JackUploadFileKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B8D3DF71EA05B37007A33F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B8D3DDB1EA05B37007A33F3 /* JackUploadFileKitDemo */;
+			targetProxy = 9B8D3DF61EA05B37007A33F3 /* PBXContainerItemProxy */;
+		};
+		9B8D3E021EA05B37007A33F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B8D3DDB1EA05B37007A33F3 /* JackUploadFileKitDemo */;
+			targetProxy = 9B8D3E011EA05B37007A33F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B8D3DE81EA05B37007A33F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8D3DE91EA05B37007A33F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B8D3DED1EA05B37007A33F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8D3DEE1EA05B37007A33F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B8D3E071EA05B37007A33F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B8D3E081EA05B37007A33F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B8D3E0A1EA05B37007A33F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XM65KFU6D6;
+				INFOPLIST_FILE = JackUploadFileKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpj.JackUploadFileKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B8D3E0B1EA05B37007A33F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XM65KFU6D6;
+				INFOPLIST_FILE = JackUploadFileKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpj.JackUploadFileKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B8D3E0D1EA05B37007A33F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XM65KFU6D6;
+				INFOPLIST_FILE = JackUploadFileKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpj.JackUploadFileKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackUploadFileKitDemo.app/JackUploadFileKitDemo";
+			};
+			name = Debug;
+		};
+		9B8D3E0E1EA05B37007A33F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XM65KFU6D6;
+				INFOPLIST_FILE = JackUploadFileKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpj.JackUploadFileKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackUploadFileKitDemo.app/JackUploadFileKitDemo";
+			};
+			name = Release;
+		};
+		9B8D3E101EA05B37007A33F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XM65KFU6D6;
+				INFOPLIST_FILE = JackUploadFileKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpj.JackUploadFileKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JackUploadFileKitDemo;
+			};
+			name = Debug;
+		};
+		9B8D3E111EA05B37007A33F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XM65KFU6D6;
+				INFOPLIST_FILE = JackUploadFileKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpj.JackUploadFileKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JackUploadFileKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8D3DD71EA05B37007A33F3 /* Build configuration list for PBXProject "JackUploadFileKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8D3E071EA05B37007A33F3 /* Debug */,
+				9B8D3E081EA05B37007A33F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8D3E091EA05B37007A33F3 /* Build configuration list for PBXNativeTarget "JackUploadFileKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8D3E0A1EA05B37007A33F3 /* Debug */,
+				9B8D3E0B1EA05B37007A33F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B8D3E0C1EA05B37007A33F3 /* Build configuration list for PBXNativeTarget "JackUploadFileKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8D3E0D1EA05B37007A33F3 /* Debug */,
+				9B8D3E0E1EA05B37007A33F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B8D3E0F1EA05B37007A33F3 /* Build configuration list for PBXNativeTarget "JackUploadFileKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8D3E101EA05B37007A33F3 /* Debug */,
+				9B8D3E111EA05B37007A33F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B8D3DD41EA05B37007A33F3 /* Project object */;
+}
